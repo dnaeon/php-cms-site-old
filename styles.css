@@ -1,0 +1,244 @@
+/* Filename       :  styles.css
+ * Description    :  defines the css styles
+ * Version        :  1.0
+ * Last modified  :  2008/11/04 19:14:35
+ */
+body {
+   color: #000000;
+   background-color: #FFFFFF;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: #990000;
+   text-align: left;
+   margin: 15px;
+   text-decoration: none;
+}
+
+h1 { font-size: 140%; }
+h2 { font-size: 130%; }
+h3 { font-size: 110%; }
+h4, h5, h6 { font-size: 100% }
+
+hr {
+   margin-top: 10px;
+   color: #7A7A7A;
+   height: 1px;
+}
+
+p {
+   font-family: arial;
+   line-height: 140%;
+}
+
+ul.contentlist {
+   font-family: arial;
+   line-height: 145%;
+   list-style-image: url('images/arrow.gif');
+}
+
+/* current active page */
+li span {
+   text-decoration: none;
+   padding: .2em 1em;
+   color: #000000;
+   background-color: #90EE90;
+   border: solid #15AAA7 1px;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* begin buttons menu styles */
+.listmenu {
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+.listmenu ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-align: center;
+}
+
+.listmenu ul li {
+   display: inline;
+}
+
+.listmenu li a {
+   text-decoration: none;
+   padding: .2em 1em;
+   color: #7A7A7A;
+   background-color: #E8FDF7;
+   border: solid #DFCAB5 1px;
+}
+
+.listmenu li a:hover {
+   color: black;
+   background-color: #90EE90;
+   text-decoration: none;
+   border: solid #15AAA7 1px;
+}
+/* end buttons menu styles */
+
+/* page header */
+.pageheader {
+   height: 200px;
+}
+
+/* page footer */
+.footer {
+   font-size: small;
+   border-top: solid #D3D3D3 1px;
+   margin-top: 15px;
+   padding: 10px;
+   font-family: courier;
+   min-width: 540px;
+}
+
+/* -- main table content -- */
+table.content {
+   width: 780px;
+   margin: 0 auto;
+   text-align: left;
+}
+
+/* item from the main table - page body */
+table.contentitem {
+   border: solid #DFCAB5 1px; 
+   background-color: #FFFFFF;
+   width: 560px;
+   font-size: 85%;
+   line-height: 140%;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+table.contentitem a:hover {
+   color: #EE358D;
+   text-decoration: underline;
+}
+
+/* left and right navigation menus style */
+table.nav {
+   border: solid 1px #DFCAB5;
+   background-color: #E8FDF7;
+   width: 185px;
+   text-align: center;
+   margin-bottom: 2px;
+}
+
+table.news {
+   border: solid 1px #5F5F5F;
+   background-color: white;
+   width: 100%;
+   text-align: left;
+   margin-bottom: 2px;
+}
+
+table.left_aligned_nav {
+   text-align: left;
+   border: solid 1px #DFCAB5;
+   background-color: #E8FDF7;
+   width: 185px;
+   margin-bottom: 2px;
+}
+
+/* section style */
+.section, .commentslink {
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   color: #990000;
+   padding: 1px;
+   margin-top: 2px;
+   margin-bottom: 5px;
+   text-decoration: none;
+   border: 1px solid gray;
+   background-color: #add8e6;
+}
+
+.commentslink {
+	color: #3e32db;
+}
+
+/* section item style */
+.item {
+   font-size: 14px;
+   line-height: 150%;
+}
+
+div.item a:hover {
+   color: black;
+   background-color: #90EE90;
+   text-decoration: none;
+   border: solid #15AAA7 0px;
+}
+
+/* styles for displaying command, quote, notice and author */
+.command, .quote, .notice, .author {
+   margin: 15px 15px 15px 15px;
+   font-size: small;
+   padding: 5px;
+}
+
+.command {
+   color: #000000;
+   background-color: #DEE3E7;
+   font-family: courier;
+   line-height: 120%;
+   border: solid 1px;
+}
+
+.quote {
+   color: #34385F;
+   background-color: #BABDD1;
+   font-family: arial;
+   border: solid 1px #18737C;
+}
+
+.notice {
+   color: #173b7f;
+   background-color: #D5E3FF;
+   font-family: arial;
+   border: solid 1px #7387b0;
+}
+
+.author {
+   color: #000000;
+   background-color: #F7EBC1;
+   font-family: arial;
+   border: solid 1px;
+}
+
+/* image gallery styles */
+.imgitem  {
+   border: 1px solid #DFCAB5;
+   background-color: #E8FDF7;
+}
+
+.imgitem img {
+   border: 1px solid #d3d3d3;
+}
+
+.imgitem a:hover img {
+   border: solid 1px blue;
+}
+
+.imgdesc {
+   text-align: center;
+}
+
+.error {
+   color: red;
+}
+
+/* minimum height */
+.minheight {
+   min-height: 200px;
+}
